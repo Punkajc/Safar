@@ -36,7 +36,7 @@ public class LoginActivity extends AppCompatActivity {
                 String pass = password.getText().toString();
 
                 if(username.equals("")||pass.equals(""))
-                    Toast.makeText(LoginActivity.this,"You must fill both credentials",Toast.LENGTH_SHORT).show();
+                    Toast.makeText(LoginActivity.this,"You must fill both the credentials",Toast.LENGTH_SHORT).show();
 
                 else {
                     startActivity(new Intent(LoginActivity.this,MainActivity.class));
